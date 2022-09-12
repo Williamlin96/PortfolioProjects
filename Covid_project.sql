@@ -147,16 +147,3 @@ WHERE dea.continent is not null and new_vaccinations is not null
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
