@@ -131,10 +131,10 @@ FROM PortfolioProject..NashvilleHousing
 
 UPDATE NashvilleHousing
 SET SoldAsVacant = CASE
-						WHEN SoldAsVacant = 'Y' Then 'Yes'
-						WHEN SoldAsVacant = 'N' THEN 'No'
-						ELSE SoldAsVacant
-					END
+			WHEN SoldAsVacant = 'Y' Then 'Yes'
+			WHEN SoldAsVacant = 'N' THEN 'No'
+			ELSE SoldAsVacant
+			END
 
 -----------------------------------------------------------------------------------
 
@@ -171,3 +171,9 @@ FROM PortfolioProject..NashvilleHousing
 
 ALTER TABLE NashvilleHousing
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
+
+
+
+
+
+
